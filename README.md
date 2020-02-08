@@ -11,8 +11,19 @@ fuzzy finder前提で動きます。
 
 ## 動作
 fzfの対話画面から任意の単語（及び英文）を選択してください。
-```shell
+``` shell
 $ ./fzf-dict.sh          
 Europe
 ヨーロッパ,欧州
+```
+## 補足
+alias登録してみるのもいいんじゃないかな
+``` shell
+alias fzword='~/fzf-dict.sh'
+```
+英文の翻訳もいけるようだ
+``` shell
+$ fzword
+say in logical order
+ちゃんと筋道を立てて話す
 ```
