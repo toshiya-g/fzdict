@@ -28,3 +28,8 @@ say in logical order
 ちゃんと筋道を立てて話す
 ```
 あと辞書ファイルはホーム直下前提で作ってある
+
+文字コード直して下記の名前で保存してる
+``` shell
+$ cat gene.txt | nkf > ./gene_utf8.txt
+```
